@@ -8,7 +8,7 @@ class Saw
   private $db;
   function __construct()
   {
-    $this->db = new PDO('mysql:host=localhost;dbname=uas_ai', "root", "");
+    $this->db = new PDO('mysql:host=localhost;dbname=ai', "root", "");
   }
 
   public function get_data_kriteria(){
