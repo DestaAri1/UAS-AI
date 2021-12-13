@@ -1,0 +1,30 @@
+body {
+    background: -webkit-linear-gradient(#f1c40f, #e67e22, #f1c40f);
+}
+
+#main {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+}
