@@ -47,10 +47,10 @@
                         '$nama','$username','$password')") or die(mysqli_error($koneksi));
 
                         echo "<div align='center'><h2> Silahkan Tunggu... <h2><div>";
-                        echo "<meta http-equiv='refresh' content='3;url=http://localhost/Pemweb/login.php'>";
+                        echo "<meta http-equiv='refresh' content='3;url=http://localhost/uas ai/login.php'>";
                 }else if(isset($_POST['kembali'])) {
                     echo "<div align='center'><h2> Silahkan Tunggu... <h2><div>";
-                    echo "<meta http-equiv='refresh' content='3;url=http://localhost/Pemweb/login.php'>";
+                    echo "<meta http-equiv='refresh' content='3;url=http://localhost/uas ai/login.php'>";
                 }
                 ?>
         </div>
