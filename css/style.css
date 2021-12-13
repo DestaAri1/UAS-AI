@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.medsos {
+	padding: 5px 0;
+	background-color: #ff3c00;
+}
+
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: #ff3c00;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	background-color: #ff3c00;
+	color: #fff;
+}
+
+.active {
+	background-color: #ff3c00;
+	color: #fff;
+}
+
+.banner {
+	height: 60vh;
+	background-image: url('../img/hp.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+section {
+	padding: 50px 0;
+}
+
+footer {
+	padding: 30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.label {
+	background-color: #ff3c00;
+	color: #fff;
+}

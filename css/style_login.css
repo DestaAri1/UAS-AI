@@ -1,0 +1,69 @@
+body {
+    background-image: url(../img/smartphone.jpg);
+    background-size: cover;
+}
+
+#main {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-top: 150px;
+}
+
+img {
+    border: 2px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-left: 110px;
+    margin-top: -50px;
+    position: absolute;
+    background-color: darkgray;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form input {
+    margin: 5px;
+    padding: 5px;
+    border: 2px gold solid;
+    border-radius: 17px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+form button {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ff7700;
+    border: 1px #ffbf00 solid;
+    border-radius: 12px;
+    color: white;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+a {
+    margin: 5px;
+    padding: 5px;
+    background-color: wheat;
+    border: 1px #c2a03b solid;
+    border-radius: 12px;
+    color: grey;
+    margin-left: 50px;
+    cursor: pointer;
+}
