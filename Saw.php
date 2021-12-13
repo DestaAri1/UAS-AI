@@ -8,8 +8,7 @@ class Saw
   private $db;
   function __construct()
   {
-    $this->db = new PDO('mysql:host=localhost;dbname=spk_saw', "root", "");
-    // $this->db = new PDO('mysql:host=mysql.idhostinger.com;dbname=u241789732_putri', "u241789732_root", "39133494");
+    $this->db = new PDO('mysql:host=localhost;dbname=uas_ai', "root", "");
   }
 
   public function get_data_kriteria(){
